@@ -35,5 +35,7 @@ namespace Mostaqer.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Mostaqer.Models.Complaint> Complaints { get; set; }
     }
 }

@@ -218,3 +218,4 @@ D:\Mostaqer\Mostaqer\obj\Debug\Mostaqer.Migrations.InitialCreate.resources
 D:\Mostaqer\Mostaqer\obj\Debug\Mostaqer.csproj.GenerateResource.cache
 D:\Mostaqer\Mostaqer\obj\Debug\Mostaqer.Migrations.updateRegister.resources
 D:\Mostaqer\Mostaqer\obj\Debug\Mostaqer.Migrations.updateaccount.resources
+D:\Mostaqer\Mostaqer\obj\Debug\Mostaqer.Migrations.add_complain.resources

@@ -169,6 +169,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ComplaintsController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -188,8 +189,13 @@
     <Compile Include="Migrations\202401301732377_update account.designer.cs">
       <DependentUpon>202401301732377_update account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402051501426_add_complain.cs" />
+    <Compile Include="Migrations\202402051501426_add_complain.designer.cs">
+      <DependentUpon>202402051501426_add_complain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Complaint.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -268,6 +274,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Account\GetAllUsers.cshtml" />
+    <Content Include="Views\Complaints\Create.cshtml" />
+    <Content Include="Views\Complaints\Delete.cshtml" />
+    <Content Include="Views\Complaints\Details.cshtml" />
+    <Content Include="Views\Complaints\Edit.cshtml" />
+    <Content Include="Views\Complaints\Index.cshtml" />
+    <Content Include="Views\Shared\_LoginLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -308,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401301732377_update account.resx">
       <DependentUpon>202401301732377_update account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402051501426_add_complain.resx">
+      <DependentUpon>202402051501426_add_complain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

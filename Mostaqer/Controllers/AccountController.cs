@@ -53,7 +53,11 @@ namespace Mostaqer.Controllers
                 _userManager = value;
             }
         }
-
+        public ActionResult GetAllUsers()
+        {
+            var users = _context.Users.Where(a=>a.userType != helpers.enums.UserType.admin).ToList();
+            return View(users);
+        }
         //
         // GET: /Account/Login
         [AllowAnonymous]
